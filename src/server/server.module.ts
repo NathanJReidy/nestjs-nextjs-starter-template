@@ -5,5 +5,6 @@ import { ViewModule } from 'src/server/view/view.module';
 
 @Module({
   imports: [AppModule, ViewModule],
+  controllers: [],
 })
 export class ServerModule {}
